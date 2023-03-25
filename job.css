@@ -1,0 +1,258 @@
+*{
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 250, 250);
+  object-fit: cover;
+}
+/* Upper part */
+::-webkit-scrollbar{
+  width:5px;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+.logo{
+  width: 5vw;
+  height: 10vh;
+  margin-top: 3vh;
+  cursor: pointer;
+}
+.up-left a{
+  text-decoration: none;
+  font-size: 1.2em;
+  color: black;
+}
+ .mark{
+  font-size: 1.6em;
+  text-align: left;
+  margin-left: 5vw;
+  margin-top: -9vh;
+  cursor: pointer;
+}
+.up-right{
+ text-align: right;
+ margin-right: 5vw;
+ margin-top: -9vh;
+}
+button{
+  width: 7vw;
+  height: 6vh;
+  border-radius: 20px;
+  border-color: rgb(0, 0, 0);
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+}
+button a{
+  background-color: black;
+  color: white;
+}
+button:hover{
+  cursor: pointer;
+}
+.banner{
+ text-align: right;
+ width: 98vw;
+ background-color: black;
+ height: 6vh;
+ border-radius: 20px;
+}
+.banner p {
+ display: inline-block;
+ font-size: 75%;
+ color: white;
+ background-color: black;
+ margin-right: 17vw;
+ cursor: pointer;
+}
+.banner a{
+  text-decoration: none;
+  background-color: black;
+  font-size: 105%;
+  color: white;
+}
+.banner a:active,.banner a:visited,.banner a:focus,.park a:active,.park a:visited,.park a:hover{
+  text-decoration: underline;
+}
+/* Site content */
+.content img,.lower img{
+  height: 40vh;
+  width: 35vw;
+  border-radius: 10px;
+  object-fit: cover;
+  display: flex;
+  box-shadow: 10px 10px 20px 0px #aaa;
+}
+
+.park{
+  margin-left:10vw;
+  margin-top: 10vh;
+  display: flex;
+}
+.park p{
+  margin-top: 10vh;
+  margin-left: 5vw;
+}
+.beach{
+  margin-top: 20vh;
+  margin-left: 52vw;
+}
+.beach p{
+  margin-top: -30vh;
+  margin-left: -38vw;
+  display: flex;
+  width: 400px;
+}
+.plate{
+  margin-top: 25vh;
+  margin-left: 10vw;
+}
+.plate p{
+  margin-top: -30vh;
+  display: flex;
+  margin-left: 40vw;
+}
+.desc{
+  font-size: 1.3em;
+}
+hr{
+  background-color: black;
+  height: 1vh;
+  border-radius: 5px;
+  width: 80vw;
+}
+.look{
+  text-align: center;
+  margin-left: -5vw;
+}
+.search{
+  text-align: center;
+  align-items: center;
+  margin-top: 7vh;
+  margin-left: -1vw;
+}
+.search img{
+  object-fit: cover;
+  width: 2%;
+  height: 2%;
+  box-shadow: none;
+  margin-bottom: -6vh;
+  margin-left: 68vw;
+  display: flex;
+  cursor: pointer;
+}
+.search .input{
+  width: 34vw;
+  height: 4vh;
+  border-radius: 50px;
+  background-color: black;
+color: whitesmoke;
+border-color: black;
+padding: 10px;
+}
+.range {
+display: flex;
+object-fit: cover;
+justify-content: space-between;
+text-align: center;
+transition: 1s;
+}
+.range img{
+  width: 23vw;
+  height: 65vh;
+  box-shadow: none;
+}
+.range :hover{
+ transform: scale(1.1); 
+  z-index: 2;
+  transition-delay:0.6s;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+h1{
+  font-size: 1.4em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.nav3 p,.partners p,.form p,.explore{
+text-align: center;
+}
+.types {
+  display: flex;
+  flex-wrap: wrap;
+  object-fit: cover;
+  justify-content: space-between;
+  text-align: center;
+  }
+.types img{
+  width: 24vw;
+  height: 70vh;
+  box-shadow: none;
+  margin-top: 7vh;
+  border-radius: 10px;
+}
+li{
+  margin-left: 39vw;
+}
+#home,#abt,#expl{
+  text-decoration: underline;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4vh;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+  width: 300px;
+  margin-top: 4vh;
+  height: 80vh;
+}
+.form input[type="text"],
+.form input[type="password"] {
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+.form input[type="submit"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  background-color: rgb(8, 8, 8);
+  cursor: pointer;
+  color: white;
+}
+#form input[type="submit"],#log input[type="submit"]{
+  margin-top: 1.5vh;
+}
+#log{
+  height: 50vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
